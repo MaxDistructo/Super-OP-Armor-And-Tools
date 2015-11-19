@@ -6,7 +6,6 @@ Block.defineBlock(1498,"Dragon Obsidan",[["obsidian"]],49,false,40);
 Item.addShapedRecipe(1498,1,0,["aaa","aaa","aaa"],["a",49,0]);
 Item.setItem(1499,"record_11",0,"Condenced Dragon Egg");
 Item.addShapedRecipe(1499,1,0[" a ","aaa","aaa",],["a",1498,0]);
-//Creation of the Nether Star//
 ModPE.setItem(1500,"blaze_rod",0,"Nether Star Sword:WIP");
 ModPE.setItem(1501,"blaze_rod",0,"Nether Star Pickaxe:WIP");
 ModPE.setItem(1502,"blaze_rod",0,"Nether Star Axe:WIP");
@@ -16,6 +15,12 @@ Item.setArmor(1505,"record_13",0,"Nether Star Helmet:WIP","armor/iron-1.png",10,
 Item.setArmor(1506,"record_13",0,"Nether Star Chestplate:WIP","armor/iron-1.png",16,ArmorType.chestplate);
 Item.setArmor(1507,"record_13",0,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
 Item.setArmor(1508,"record_13",0,"Nether Star Boots:WIP","armor/iron-1.png",8,ArmorType.boots);
+ModPE.setItem(1509,"stick",0,"Ender Dragon Sword:WIP");
+ModPE.setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");
+ModPE.setItem(1511,"stick",0,"Ender Dragon Axe:WIP");
+ModPE.setItem(1512,"stick",0,"Ender Dragon Shovel:WIP")
+ModPE.setItem(1513,"stick",0,"Ender Dragon Hoe:WIP")
+Item.setArmor(1514,"record_11",0,"Ender Dragon Helmet:WIP",)
 Item.setMaxDamage(1500,5000);
 Item.setMaxDamage(1501,5000);
 Item.setMaxDamage(1502,5000);
