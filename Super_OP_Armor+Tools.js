@@ -15,11 +15,7 @@ function attackHook(a,v){
     Player.getCarriedItemData()+1
       else
       
-  
-  
+  Level.playSoundEnt(a,"random.break",100,10]);
+  Player.clearInventorySlot(Player.getSelectedSlotId());
 }
-
-//Easter Eggs!//
-function chatHook(fuck){Stop Swearing!}
-function chatHook(bitch){Stop Swearing!}
 }
