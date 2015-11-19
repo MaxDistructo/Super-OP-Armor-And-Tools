@@ -20,7 +20,10 @@ ModPE.setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");
 ModPE.setItem(1511,"stick",0,"Ender Dragon Axe:WIP");
 ModPE.setItem(1512,"stick",0,"Ender Dragon Shovel:WIP")
 ModPE.setItem(1513,"stick",0,"Ender Dragon Hoe:WIP")
-Item.setArmor(1514,"record_11",0,"Ender Dragon Helmet:WIP",)
+Item.setArmor(1514,"record_11",0,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorType.helmet);
+Item.setArmor(1515,"record_11",0,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
+Item.setArmor(1516,"record_11",0,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
+Item.setArmor(1517,"record_11",0,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
 Item.setMaxDamage(1500,5000);
 Item.setMaxDamage(1501,5000);
 Item.setMaxDamage(1502,5000);
@@ -30,10 +33,27 @@ Item.setMaxDamage(1505,10000);
 Item.setMaxDamage(1506,10000);
 Item.setMaxDamage(1507,10000);
 Item.setMaxDamage(1508,10000);
+Item.setMaxDamage(1509,10000);
+Item.setMaxDamage(1509,10000);
+Item.setMaxDamage(1509,10000);
+Item.setMaxDamage(1509,10000);
+Item.setMaxDamage(1509,10000);
 var damage = 20
 function attackHook(a,v){
   if (Player.getCarriedItem() == 1500)
     if ([Player.getCarriedItemData() == 5000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1500),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+      else
+      
+  Level.playSoundEnt(a,"random.break",100,10]);
+  Player.clearInventorySlot(Player.getSelectedSlotId());
+}
+function attackHook(a,v){
+  if (Player.getCarriedItem() == 1509)
+    if ([Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1500),
     Player.getCarriedItemCount(),
