@@ -69,6 +69,4 @@ function attackHook(a,v){
   Level.playSoundEnt(a,"random.break",100,10]);
   Player.clearInventorySlot(Player.getSelectedSlotId());
 }
-function destroyBlock
-
 }
