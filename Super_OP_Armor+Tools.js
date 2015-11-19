@@ -34,10 +34,14 @@ Item.setMaxDamage(1506,10000);
 Item.setMaxDamage(1507,10000);
 Item.setMaxDamage(1508,10000);
 Item.setMaxDamage(1509,10000);
-Item.setMaxDamage(1509,10000);
-Item.setMaxDamage(1509,10000);
-Item.setMaxDamage(1509,10000);
-Item.setMaxDamage(1509,10000);
+Item.setMaxDamage(1510,10000);
+Item.setMaxDamage(1511,10000);
+Item.setMaxDamage(1512,10000);
+Item.setMaxDamage(1513,10000);
+Item.setMaxDamage(1514,100000);
+Item.setMaxDamage(1515,100000);
+Item.setMaxDamage(1516,100000);
+Item.setMaxDamage(1517,100000);
 var damage = 20
 function attackHook(a,v){
   if (Player.getCarriedItem() == 1500)
