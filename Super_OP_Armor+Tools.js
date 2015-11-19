@@ -2,8 +2,9 @@
 //***By:MaxDistructo***//
 ModPE.setItem(399,"nether_star",0,"Nether Star");
 Item.addShapedRecipe(399,1,0,[" a ","aba"," a "],["a",155,0,"b",264,0],16);
-Block.defineBlock(1498,"Dragon Obsidan",[["obsidian"]],49,false,40);
+Block.defineBlock(1498,"Dragon Obsidan",[["glowing_obsidian"]],49,false,40);
 Item.addShapedRecipe(1498,1,0,["aaa","aaa","aaa"],["a",49,0]);
+Block.setExplosionResistance(1498,1000000000000000)
 Item.setItem(1499,"record_11",0,"Condenced Dragon Egg");
 Item.addShapedRecipe(1499,1,0[" a ","aaa","aaa",],["a",1498,0]);
 ModPE.setItem(1500,"blaze_rod",0,"Nether Star Sword:WIP");
@@ -42,9 +43,9 @@ Item.setMaxDamage(1514,100000);
 Item.setMaxDamage(1515,100000);
 Item.setMaxDamage(1516,100000);
 Item.setMaxDamage(1517,100000);
-var damage = 20
 function attackHook(a,v){
   if (Player.getCarriedItem() == 1500)
+  var damage = 20
     if ([Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1500),
@@ -57,9 +58,10 @@ function attackHook(a,v){
 }
 function attackHook(a,v){
   if (Player.getCarriedItem() == 1509)
+  var damage = 30
     if ([Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
-    Entity.getCarriedItem(a,1500),
+    Entity.getCarriedItem(a,1509),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
       else
@@ -67,4 +69,6 @@ function attackHook(a,v){
   Level.playSoundEnt(a,"random.break",100,10]);
   Player.clearInventorySlot(Player.getSelectedSlotId());
 }
+function destroyBlock
+
 }
