@@ -51,6 +51,7 @@ function attackHook(a,v){
     Entity.getCarriedItem(a,1500),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
+    clientMessage(You Attacked A Mob!)
       else
       
   Level.playSoundEnt(a,"random.break",100,10]);
