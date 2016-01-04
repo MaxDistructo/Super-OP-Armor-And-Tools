@@ -160,11 +160,11 @@ function attackHook(a,v){
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-             if (Player.getCarriedItem() == 1510{
-  var damage = 6
+             if (Player.getCarriedItem() == 1512{
+  var damage = 14
     if ([Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
-    Entity.getCarriedItem(a,1510),
+    Entity.getCarriedItem(a,1512),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
       else
@@ -173,3 +173,21 @@ function attackHook(a,v){
   Player.clearInventorySlot(Player.getSelectedSlotId());
 }
 
+function useItem(x,y,z,itemId,blockId,side)
+if(itemId==1504&&blockId==3&&side==top)
+    Entity.getCarriedItem(Player.getEntity(),1504),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    Level.setTile(x,y,z,60)
+    Level.setTile(x+1,y,z,60)
+    Level.setTile(x,y,z+1,60)
+    Level.setTile(x-1,y,z,60)
+    Level.setTile(x,y,z-1,60)
+    Level.setTile(x-1,y,z-1,60)
+    Level.setTile(x+1,y,z-1,60)
+    Level.setTile(x+1,y,z+1,60)
+    Level.setTile(x-1,y,z+1,60)
+    else
+  Level.playSoundEnt(Player.getEntity,"random.break",100,10]);
+  Player.clearInventorySlot(Player.getSelectedSlotId());
+  
