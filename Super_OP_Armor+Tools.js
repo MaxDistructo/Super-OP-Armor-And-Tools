@@ -1,53 +1,89 @@
 //Super OP Armor and Tools//
 //***By:MaxDistructo***//
-ModPE.setItem(399,"nether_star",0,"Nether Star");
-Item.addShapedRecipe(399,1,0,[" a ","aba"," a "],["a",155,0,"b",264,0],16);
-Block.defineBlock(207,"Dragon Obsidan",[["obsidian",0]],49,false,40);
-Item.addShapedRecipe(207,1,0,["aaa","aaa","aaa"],["a",49,0]);
-Block.setExplosionResistance(207,1000000000000000)
-Block.setColor(207,0x330033)
-Item.setItem(1499,"fireball",0,"Condenced Dragon Egg");
-Item.addShapedRecipe(1499,1,0[" a ","aaa","aaa",],["a",1498,0]);
-ModPE.setItem(1500,"sword",2,"Nether Star Sword:WIP");
-ModPE.setItem(1501,"pickaxe",2,"Nether Star Pickaxe:WIP");
-ModPE.setItem(1502,"axe",2,"Nether Star Axe:WIP");
-ModPE.setItem(1503,"shovel",2,"Nether Star Shovel:WIP");
-ModPE.setItem(1504,"hoe",2,"Nether Star Hoe:WIP");
-Item.setArmor(1505,"helmet",2,"Nether Star Helmet:WIP","armor/iron-1.png",10,ArmorType.helmet);
-Item.setArmor(1506,"chestplate",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,ArmorType.chestplate);
-Item.setArmor(1507,"leggings",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
-Item.setArmor(1508,"boots",2,"Nether Star Boots:WIP","armor/iron-1.png",8,ArmorType.boots);
-ModPE.setItem(1509,"stick",0,"Ender Dragon Sword:WIP");
-ModPE.setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");
-ModPE.setItem(1511,"stick",0,"Ender Dragon Axe:WIP");
-ModPE.setItem(1512,"stick",0,"Ender Dragon Shovel:WIP")
-ModPE.setItem(1513,"stick",0,"Ender Dragon Hoe:WIP")
-Item.setArmor(1514,"helmet",1,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorType.helmet);
-Item.setArmor(1515,"chestplate",1,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
-Item.setArmor(1516,"leggings",1,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
-Item.setArmor(1517,"boots",1,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
-Item.setMaxDamage(1500,5000);
-Item.setMaxDamage(1501,5000);
-Item.setMaxDamage(1502,5000);
-Item.setMaxDamage(1503,5000);
-Item.setMaxDamage(1504,5000);
-Item.setMaxDamage(1505,10000);
-Item.setMaxDamage(1506,10000);
-Item.setMaxDamage(1507,10000);
-Item.setMaxDamage(1508,10000);
-Item.setMaxDamage(1509,10000);
-Item.setMaxDamage(1510,10000);
-Item.setMaxDamage(1511,10000);
-Item.setMaxDamage(1512,10000);
-Item.setMaxDamage(1513,10000);
-Item.setMaxDamage(1514,100000);
-Item.setMaxDamage(1515,100000);
-Item.setMaxDamage(1516,100000);
-Item.setMaxDamage(1517,100000);
+
+var setItem =  ModPE.setItem
+var setCraft =  Item.addShapedRecipe
+var setBlock = Block.defineBlock
+var setArmor = Item.setArmor
+var setDmg = Item.setMaxDamage
+var setExplosion = Block.setExplosionResistance
+var setDamage = Item.setMaxDamage
+
+setItem(399,"nether_star",0,"Nether Star");
+setCraft(399,1,0,[" a ","aba"," a "],["a",155,0,"b",264,0]);
+
+setItem(460,"diamond",0,"Super Diamond");
+setCraft(460,1,0,["aaa","aba","aaa"],["a",57,0,"b",264,0]);
+
+setBlock(207,"Dragon Obsidan",[["dragon_egg",0]],49,false,40);
+setCraft(207,1,0,["aaa","aaa","aaa"],["a",49,0]);
+setExplosion(207,1000000000000000)
+
+setItem(1499,"fireball",0,"Condenced Dragon Egg");
+setCraft(1499,1,0[" a ","aaa","aaa",],["a",1498,0]);
+
+setItem(1498,"sword",4,"Super Diamond Sword")
+
+setItem(1500,"sword",2,"Nether Star Sword:WIP");  //Texture is made
+setItem(1501,"pickaxe",2,"Nether Star Pickaxe:WIP"); //Texture is made
+setItem(1502,"axe",2,"Nether Star Axe:WIP");  //Texture is made
+setItem(1503,"shovel",2,"Nether Star Shovel:WIP");
+setItem(1504,"hoe",2,"Nether Star Hoe:WIP");
+setArmor(1505,"helmet",2,"Nether Star Helmet:WIP","armor/iron-1.png",10,ArmorType.helmet);
+setArmor(1506,"chestplate",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,ArmorType.chestplate);
+setArmor(1507,"leggings",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
+setArmor(1508,"boots",2,"Nether Star Boots:WIP","armor/iron-1.png",8,ArmorType.boots);
+
+setItem(1509,"stick",0,"Ender Dragon Sword:WIP");  //Texture is made
+setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");  //Texture is made
+setItem(1511,"stick",0,"Ender Dragon Axe:WIP");  //Texture is made
+setItem(1512,"stick",0,"Ender Dragon Shovel:WIP")
+setItem(1513,"stick",0,"Ender Dragon Hoe:WIP")
+setArmor(1514,"helmet",1,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorType.helmet);
+setArmor(1515,"chestplate",1,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
+setArmor(1516,"leggings",1,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
+setArmor(1517,"boots",1,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
+
+setDamage(1500,5000);
+setDamage(1501,5000);
+setDamage(1502,5000);
+setDamage(1503,5000);
+setDamage(1504,5000);
+setDamage(1505,10000);
+setDamage(1506,10000);
+setDamage(1507,10000);
+setDamage(1508,10000);
+setDamage(1509,10000);
+setDamage(1510,10000);
+setDamage(1511,10000);
+setDamage(1512,10000);
+setDamage(1513,10000);
+setDamage(1514,100000);
+setDamage(1515,100000);
+setDamage(1516,100000);
+setDamage(1517,100000);
+
 function attackHook(a,v){
-  if (Player.getCarriedItem() == 1500)
+  if (Player.getCarriedItem() == 1500){
   var damage = 20
     if ([Player.getCarriedItemData() == 5000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1500),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+  }
+}
+    if (Player.getCarriedItem() == 1509)
+  var damage = 30
+    if ([Player.getCarriedItemData() == 10000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1509),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+      if (Player.getCarriedItem() == 1498{
+  var damage = 25
+    if ([Player.getCarriedItemData() == 7500)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1500),
     Player.getCarriedItemCount(),
@@ -57,17 +93,4 @@ function attackHook(a,v){
   Level.playSoundEnt(a,"random.break",100,10]);
   Player.clearInventorySlot(Player.getSelectedSlotId());
 }
-function attackHook(a,v){
-  if (Player.getCarriedItem() == 1509)
-  var damage = 30
-    if ([Player.getCarriedItemData() == 10000)
-    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
-    Entity.getCarriedItem(a,1509),
-    Player.getCarriedItemCount(),
-    Player.getCarriedItemData()+1
-      else
-      
-  Level.playSoundEnt(a,"random.break",100,10]);
-  Player.clearInventorySlot(Player.getSelectedSlotId());
-}
-}
+
