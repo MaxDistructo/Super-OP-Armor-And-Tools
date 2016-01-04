@@ -12,8 +12,15 @@ var setDamage = Item.setMaxDamage
 setItem(399,"nether_star",0,"Nether Star");
 setCraft(399,1,0,[" a ","aba"," a "],["a",155,0,"b",264,0]);
 
+setItem(462,"nether_star",0,"Super Nether Star");
+setCraft(462,1,0,["aaa","aaa","aaa"],["a",399,0])
+
 setItem(460,"diamond",0,"Super Diamond");
 setCraft(460,1,0,["aaa","aba","aaa"],["a",57,0,"b",264,0]);
+
+setItem(461,"stick",1,"Obsidian Stick")
+setCraft(461,2,0,["a","a"],["a",49,0])
+Item.setCraftRecipe(461,2,0,[49,2,0])
 
 setBlock(207,"Dragon Obsidan",[["dragon_egg",0]],49,false,40);
 setCraft(207,1,0,["aaa","aaa","aaa"],["a",49,0]);
@@ -23,6 +30,7 @@ setItem(1499,"fireball",0,"Condenced Dragon Egg");
 setCraft(1499,1,0[" a ","aaa","aaa",],["a",1498,0]);
 
 setItem(1498,"sword",4,"Super Diamond Sword")
+setCraft(1498,[" a "," a "," b "],["a",460,0,"b",461,0])
 
 setItem(1500,"sword",2,"Nether Star Sword:WIP");  //Texture is made
 setItem(1501,"pickaxe",2,"Nether Star Pickaxe:WIP"); //Texture is made
