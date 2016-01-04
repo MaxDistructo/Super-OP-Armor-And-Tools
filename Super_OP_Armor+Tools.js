@@ -105,14 +105,14 @@ function attackHook(a,v){
   }
 }
     if (Player.getCarriedItem() == 1509)
-  var damage = 30
+  var damage = 20
     if ([Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1509),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-      if (Player.getCarriedItem() == 1498{
+      if (Player.getCarriedItem() == 1498
   var damage = 25
     if ([Player.getCarriedItemData() == 7500)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
@@ -120,7 +120,7 @@ function attackHook(a,v){
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-          if (Player.getCarriedItem() == 1501{
+      if (Player.getCarriedItem() == 1501
   var damage = 8
     if ([Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
@@ -128,7 +128,7 @@ function attackHook(a,v){
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-              if (Player.getCarriedItem() == 1502{
+      if (Player.getCarriedItem() == 1502
   var damage = 10
     if ([Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
@@ -136,11 +136,35 @@ function attackHook(a,v){
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-              if (Player.getCarriedItem() == 1503{
+     if (Player.getCarriedItem() == 1503
   var damage = 6
     if ([Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1503),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+         if (Player.getCarriedItem() == 1510{
+  var damage = 16
+    if ([Player.getCarriedItemData() == 10000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1510),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+             if (Player.getCarriedItem() == 1511{
+  var damage = 18
+    if ([Player.getCarriedItemData() == 10000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1511),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+             if (Player.getCarriedItem() == 1510{
+  var damage = 6
+    if ([Player.getCarriedItemData() == 10000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1510),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
       else
