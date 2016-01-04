@@ -1,0 +1,10 @@
+Make Nether Star Hoe do a 3x3 area
+Make Dragon Hoe do a 5x5 any block area
+Fix Picks
+Set Damage on Picks, Axes, Shovels
+Make Picks, Axes, Shovels, Hoes Work
+Make Effects if full set of armor is on character
+Wither Enemies using nether star sword
+Fly while only using dragon chestplate
+Fly with full Nether Star Set
+Create all custom textures
