@@ -42,6 +42,9 @@ setArmor(1506,"chestplate",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,
 setArmor(1507,"leggings",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
 setArmor(1508,"boots",2,"Nether Star Boots:WIP","armor/iron-1.png",8,ArmorType.boots);
 
+setCraft(1500," a "," a "," b ",["a",399,0,"b",461,0])
+setCraft(1501,"aaa"," b "," b ",["a",399,0,"b",461,0])
+
 setItem(1509,"stick",0,"Ender Dragon Sword:WIP");  //Texture is made
 setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");  //Texture is made
 setItem(1511,"stick",0,"Ender Dragon Axe:WIP");  //Texture is made
@@ -73,7 +76,7 @@ setDamage(1517,100000);
 
 function attackHook(a,v){
   if (Player.getCarriedItem() == 1500){
-  var damage = 20
+  var damage = 12.5
     if ([Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1500),
