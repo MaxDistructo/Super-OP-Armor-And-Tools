@@ -2,30 +2,30 @@
 //***By:MaxDistructo***//
 ModPE.setItem(399,"nether_star",0,"Nether Star");
 Item.addShapedRecipe(399,1,0,[" a ","aba"," a "],["a",155,0,"b",264,0],16);
-Block.defineBlock(1498,"Dragon Obsidan",[["obsidian",0]],49,false,40);
-Item.addShapedRecipe(1498,1,0,["aaa","aaa","aaa"],["a",49,0]);
-Block.setExplosionResistance(1498,1000000000000000)
-Block.setColor(1498,0x330033)
-Item.setItem(1499,"record_11",0,"Condenced Dragon Egg");
+Block.defineBlock(207,"Dragon Obsidan",[["obsidian",0]],49,false,40);
+Item.addShapedRecipe(207,1,0,["aaa","aaa","aaa"],["a",49,0]);
+Block.setExplosionResistance(207,1000000000000000)
+Block.setColor(207,0x330033)
+Item.setItem(1499,"fireball",0,"Condenced Dragon Egg");
 Item.addShapedRecipe(1499,1,0[" a ","aaa","aaa",],["a",1498,0]);
 ModPE.setItem(1500,"sword",2,"Nether Star Sword:WIP");
-ModPE.setItem(1501,"blaze_rod",2,"Nether Star Pickaxe:WIP");
-ModPE.setItem(1502,"blaze_rod",2,"Nether Star Axe:WIP");
-ModPE.setItem(1503,"blaze_rod",2,"Nether Star Shovel:WIP");
-ModPE.setItem(1504,"blaze_rod",2,"Nether Star Hoe:WIP");
-Item.setArmor(1505,"record_13",2,"Nether Star Helmet:WIP","armor/iron-1.png",10,ArmorType.helmet);
-Item.setArmor(1506,"record_13",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,ArmorType.chestplate);
-Item.setArmor(1507,"record_13",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
-Item.setArmor(1508,"record_13",2,"Nether Star Boots:WIP","armor/iron-1.png",8,ArmorType.boots);
+ModPE.setItem(1501,"pickaxe",2,"Nether Star Pickaxe:WIP");
+ModPE.setItem(1502,"axe",2,"Nether Star Axe:WIP");
+ModPE.setItem(1503,"shovel",2,"Nether Star Shovel:WIP");
+ModPE.setItem(1504,"hoe",2,"Nether Star Hoe:WIP");
+Item.setArmor(1505,"helmet",2,"Nether Star Helmet:WIP","armor/iron-1.png",10,ArmorType.helmet);
+Item.setArmor(1506,"chestplate",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,ArmorType.chestplate);
+Item.setArmor(1507,"leggings",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
+Item.setArmor(1508,"boots",2,"Nether Star Boots:WIP","armor/iron-1.png",8,ArmorType.boots);
 ModPE.setItem(1509,"stick",0,"Ender Dragon Sword:WIP");
 ModPE.setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");
 ModPE.setItem(1511,"stick",0,"Ender Dragon Axe:WIP");
 ModPE.setItem(1512,"stick",0,"Ender Dragon Shovel:WIP")
 ModPE.setItem(1513,"stick",0,"Ender Dragon Hoe:WIP")
-Item.setArmor(1514,"record_11",0,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorType.helmet);
-Item.setArmor(1515,"record_11",0,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
-Item.setArmor(1516,"record_11",0,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
-Item.setArmor(1517,"record_11",0,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
+Item.setArmor(1514,"helmet",1,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorType.helmet);
+Item.setArmor(1515,"chestplate",1,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
+Item.setArmor(1516,"leggings",1,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
+Item.setArmor(1517,"boots",1,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
 Item.setMaxDamage(1500,5000);
 Item.setMaxDamage(1501,5000);
 Item.setMaxDamage(1502,5000);
