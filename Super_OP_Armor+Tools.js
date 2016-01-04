@@ -116,7 +116,31 @@ function attackHook(a,v){
   var damage = 25
     if ([Player.getCarriedItemData() == 7500)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
-    Entity.getCarriedItem(a,1500),
+    Entity.getCarriedItem(a,1498),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+          if (Player.getCarriedItem() == 1501{
+  var damage = 8
+    if ([Player.getCarriedItemData() == 5000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1501),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+              if (Player.getCarriedItem() == 1502{
+  var damage = 10
+    if ([Player.getCarriedItemData() == 5000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1502),
+    Player.getCarriedItemCount(),
+    Player.getCarriedItemData()+1
+    
+              if (Player.getCarriedItem() == 1503{
+  var damage = 6
+    if ([Player.getCarriedItemData() == 5000)
+    Entity.setHealth(victim,Entity.getHealth (victim) - damage);
+    Entity.getCarriedItem(a,1503),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
       else
