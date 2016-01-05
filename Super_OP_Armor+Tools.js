@@ -18,7 +18,7 @@ setCraft(462,1,0,["aaa","aaa","aaa"],["a",399,0])
 setItem(460,"diamond",0,"Super Diamond");
 setCraft(460,1,0,["aaa","aba","aaa"],["a",57,0,"b",264,0]);
 
-setItem(461,"stick",0,"Obsidian Stick")
+setItem(461,"stick",0,"Obsidian Stick")  //Texture Made
 setCraft(461,2,0,["a","a"],["a",49,0])
 
 setBlock(207,"Dragon Obsidan",[["dragon_egg",0]],49,false,40);
@@ -37,8 +37,8 @@ setCraft(1498,1,0,[" a "," a "," b "],["a",460,0,"b",461,0])
 setItem(1500,"sword",2,"Nether Star Sword:WIP");  //Texture is made
 setItem(1501,"pickaxe",2,"Nether Star Pickaxe:WIP"); //Texture is made
 setItem(1502,"axe",2,"Nether Star Axe:WIP");  //Texture is made
-setItem(1503,"shovel",2,"Nether Star Shovel:WIP");
-setItem(1504,"hoe",2,"Nether Star Hoe:WIP");
+setItem(1503,"shovel",2,"Nether Star Shovel:WIP"); // Texture Made
+setItem(1504,"hoe",2,"Nether Star Hoe:WIP"); // Texture Made
 setArmor(1505,"helmet",2,"Nether Star Helmet:WIP","armor/iron-1.png",12,ArmorType.helmet);
 setArmor(1506,"chestplate",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,ArmorType.chestplate);
 setArmor(1507,"leggings",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
@@ -57,8 +57,8 @@ setCraft(1508,1,0,["   ","a a","a a"],["a",399,0])
 setItem(1509,"stick",0,"Ender Dragon Sword:WIP");  //Texture is made
 setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");  //Texture is made
 setItem(1511,"stick",0,"Ender Dragon Axe:WIP");  //Texture is made
-setItem(1512,"stick",0,"Ender Dragon Shovel:WIP")
-setItem(1513,"stick",0,"Ender Dragon Hoe:WIP")
+setItem(1512,"stick",0,"Ender Dragon Shovel:WIP") //Texture is made
+setItem(1513,"stick",0,"Ender Dragon Hoe:WIP") //Texture is made
 setArmor(1514,"helmet",1,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorType.helmet);
 setArmor(1515,"chestplate",1,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
 setArmor(1516,"leggings",1,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
