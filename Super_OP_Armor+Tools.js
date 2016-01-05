@@ -4,7 +4,7 @@
 var setItem =  ModPE.setItem
 var setCraft =  Item.addShapedRecipe
 var setBlock = Block.defineBlock
-var setArmor = Item.setArmor
+var setArmor = Entity.setArmor
 var setDmg = Item.setMaxDamage
 var setExplosion = Block.setExplosionResistance
 var setDamage = Item.setMaxDamage
@@ -18,19 +18,18 @@ setCraft(462,1,0,["aaa","aaa","aaa"],["a",399,0])
 setItem(460,"diamond",0,"Super Diamond");
 setCraft(460,1,0,["aaa","aba","aaa"],["a",57,0,"b",264,0]);
 
-setItem(461,"stick",1,"Obsidian Stick")
+setItem(461,"stick",0,"Obsidian Stick")
 setCraft(461,2,0,["a","a"],["a",49,0])
-Item.setCraftRecipe(461,2,0,[49,2,0])
 
 setBlock(207,"Dragon Obsidan",[["dragon_egg",0]],49,false,40);
 setCraft(207,1,0,["aaa","aaa","aaa"],["a",49,0]);
 setExplosion(207,1000000000000000)
 
 setItem(1499,"fireworks_charge",0,"Un-Refined Dragon Egg Essence");
-setCraft(1499,1,0[" a ","aa ","aaa",],["a",1498,0]);
+setCraft(1499,1,0,[" a ","aa ","aaa",],["a",1498,0]);
 
 setItem(463,"fireball",0,"Dragon Egg Essence")
-setCraft(463,1,0["   "," a ","aaa"],["a",1499,0])
+setCraft(463,1,0,["   "," a ","aaa"],["a",1499,0])
 
 setItem(1498,"sword",4,"Super Diamond Sword")
 setCraft(1498,1,0,[" a "," a "," b "],["a",460,0,"b",461,0])
