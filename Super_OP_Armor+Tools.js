@@ -33,7 +33,7 @@ setItem(463,"fireball",0,"Dragon Egg Essence")
 setCraft(463,1,0["   "," a ","aaa"],["a",1499,0])
 
 setItem(1498,"sword",4,"Super Diamond Sword")
-setCraft(1498,[" a "," a "," b "],["a",460,0,"b",461,0])
+setCraft(1498,1,0,[" a "," a "," b "],["a",460,0,"b",461,0])
 
 setItem(1500,"sword",2,"Nether Star Sword:WIP");  //Texture is made
 setItem(1501,"pickaxe",2,"Nether Star Pickaxe:WIP"); //Texture is made
@@ -45,15 +45,15 @@ setArmor(1506,"chestplate",2,"Nether Star Chestplate:WIP","armor/iron-1.png",16,
 setArmor(1507,"leggings",2,"Nether Star Leggings:WIP","armor/iron-2.png",14,ArmorType.leggings);
 setArmor(1508,"boots",2,"Nether Star Boots:WIP","armor/iron-1.png",6,ArmorType.boots);
 
-setCraft(1500," a "," a "," b ",["a",399,0,"b",461,0])
-setCraft(1501,"aaa"," b "," b ",["a",399,0,"b",461,0])
-setCraft(1502,"aa ","ab "," b ",["a",399,0,"b",461,0])
-setCraft(1503," a "," b "," b ",["a",399,0,"b",461,0])
-setCraft(1504,"aa "," b "," b ",["a",399,0,"b",461,0])
-setCraft(1505,"aba","a a","   ",["a",399,0,"b",462,0])
-setCraft(1506,"a a","aba","aaa",["a",399,0,"b",462,0])
-setCraft(1507,"aba","a a","a a",["a",399,0,"b",462,0])
-setCraft(1508,"   ","a a","a a",["a",399,0])
+setCraft(1500,1,0,[" a "," a "," b "],["a",399,0,"b",461,0])
+setCraft(1501,1,0,["aaa"," b "," b "],["a",399,0,"b",461,0])
+setCraft(1502,1,0,["aa ","ab "," b "],["a",399,0,"b",461,0])
+setCraft(1503,1,0,[" a "," b "," b "],["a",399,0,"b",461,0])
+setCraft(1504,1,0,["aa "," b "," b "],["a",399,0,"b",461,0])
+setCraft(1505,1,0,["aba","a a","   "],["a",399,0,"b",462,0])
+setCraft(1506,1,0,["a a","aba","aaa"],["a",399,0,"b",462,0])
+setCraft(1507,1,0,["aba","a a","a a"],["a",399,0,"b",462,0])
+setCraft(1508,1,0,["   ","a a","a a"],["a",399,0])
 
 setItem(1509,"stick",0,"Ender Dragon Sword:WIP");  //Texture is made
 setItem(1510,"stick",0,"Ender Dragon Pickaxe:WIP");  //Texture is made
@@ -65,15 +65,15 @@ setArmor(1515,"chestplate",1,"Ender Dragon Chestplate:WIP","armor/chain-1.png",2
 setArmor(1516,"leggings",1,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
 setArmor(1517,"boots",1,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
 
-setCraft(1509," a "," a "," b ",["a",1499,0,"b",461,0])
-setCraft(1510,"aaa"," b "," b ",["a",1499,0,"b",461,0])
-setCraft(1511,"aa ","ab "," b ",["a",1499,0,"b",461,0])
-setCraft(1512," a "," b "," b ",["a",1499,0,"b",461,0])
-setCraft(1513,"aa "," b "," b ",["a",1499,0,"b",461,0])
-setCraft(1514,"aba","a a","   ",["a",1499,0,"b",463,0])
-setCraft(1515,"a a","aba","aaa",["a",1499,0,"b",463,0])
-setCraft(1516,"aba","a a","a a",["a",1499,0,"b",463,0])
-setCraft(1517,"   ","a a","a a",["a",1499,0])
+setCraft(1509,1,0,[" a "," a "," b "],["a",1499,0,"b",461,0])
+setCraft(1510,1,0,["aaa"," b "," b "],["a",1499,0,"b",461,0])
+setCraft(1511,1,0,["aa ","ab "," b "],["a",1499,0,"b",461,0])
+setCraft(1512,1,0,[" a "," b "," b "],["a",1499,0,"b",461,0])
+setCraft(1513,1,0,["aa "," b "," b "],["a",1499,0,"b",461,0])
+setCraft(1514,1,0,["aba","a a","   "],["a",1499,0,"b",463,0])
+setCraft(1515,1,0,["a a","aba","aaa"],["a",1499,0,"b",463,0])
+setCraft(1516,1,0,["aba","a a","a a"],["a",1499,0,"b",463,0])
+setCraft(1517,1,0,["   ","a a","a a"],["a",1499,0])
 
 setDamage(1500,5000);
 setDamage(1501,5000);
@@ -95,18 +95,18 @@ setDamage(1516,100000);
 setDamage(1517,100000);
 
 function attackHook(a,v){
-  if (Player.getCarriedItem() == 1500){
+  if (Player.getCarriedItem() == 1500)
   var damage = 12.5
-    if ([Player.getCarriedItemData() == 5000)
+    if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1500),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
-  }
-}
+  
+
     if (Player.getCarriedItem() == 1509)
   var damage = 20
-    if ([Player.getCarriedItemData() == 10000)
+    if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1509),
     Player.getCarriedItemCount(),
@@ -114,7 +114,7 @@ function attackHook(a,v){
     
       if (Player.getCarriedItem() == 1498
   var damage = 25
-    if ([Player.getCarriedItemData() == 7500)
+    if (Player.getCarriedItemData() == 7500)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1498),
     Player.getCarriedItemCount(),
@@ -122,59 +122,59 @@ function attackHook(a,v){
     
       if (Player.getCarriedItem() == 1501
   var damage = 8
-    if ([Player.getCarriedItemData() == 5000)
+    if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1501),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-      if (Player.getCarriedItem() == 1502
+  if (Player.getCarriedItem() == 1502
   var damage = 10
-    if ([Player.getCarriedItemData() == 5000)
+    if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1502),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-     if (Player.getCarriedItem() == 1503
+  if (Player.getCarriedItem() == 1503
   var damage = 6
-    if ([Player.getCarriedItemData() == 5000)
+    if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1503),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-         if (Player.getCarriedItem() == 1510{
+ if (Player.getCarriedItem() == 1510
   var damage = 16
-    if ([Player.getCarriedItemData() == 10000)
+    if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1510),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-             if (Player.getCarriedItem() == 1511{
+  if (Player.getCarriedItem() == 1511
   var damage = 18
-    if ([Player.getCarriedItemData() == 10000)
+    if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1511),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-             if (Player.getCarriedItem() == 1512{
+             if (Player.getCarriedItem() == 1512
   var damage = 14
-    if ([Player.getCarriedItemData() == 10000)
+    if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - damage);
     Entity.getCarriedItem(a,1512),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
-      else
-      
+      }else{
   Level.playSoundEnt(a,"random.break",100,10]);
   Player.clearInventorySlot(Player.getSelectedSlotId());
 }
 
-function useItem(x,y,z,itemId,blockId,side)
+function useItem(x,y,z,itemId,blockId,side){
 if(itemId==1504&&blockId==3&&side==top)
+{
     Entity.getCarriedItem(Player.getEntity(),1504),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
@@ -187,7 +187,10 @@ if(itemId==1504&&blockId==3&&side==top)
     Level.setTile(x+1,y,z-1,60)
     Level.setTile(x+1,y,z+1,60)
     Level.setTile(x-1,y,z+1,60)
-    else
-  Level.playSoundEnt(Player.getEntity,"random.break",100,10]);
+    Level.playSoundEnt(Player.getEntity,"step.grass",100,10)
+    }
+    else{
+  Level.playSoundEnt(Player.getEntity,"random.break",100,10);
   Player.clearInventorySlot(Player.getSelectedSlotId());
-  
+} 
+}
