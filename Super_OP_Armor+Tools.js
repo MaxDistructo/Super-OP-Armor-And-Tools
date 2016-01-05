@@ -109,49 +109,49 @@ function attackHook(a,v){
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-      if (Player.getCarriedItem() == 1498
+      if (Player.getCarriedItem() == 1498)
     if (Player.getCarriedItemData() == 7500)
     Entity.setHealth(victim,Entity.getHealth (victim) - 25);
     Entity.getCarriedItem(a,1498),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-      if (Player.getCarriedItem() == 1501
+      if (Player.getCarriedItem() == 1501)
     if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 8);
     Entity.getCarriedItem(a,1501),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-  if (Player.getCarriedItem() == 1502
+  if (Player.getCarriedItem() == 1502)
     if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 10);
     Entity.getCarriedItem(a,1502),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-  if (Player.getCarriedItem() == 1503
+  if (Player.getCarriedItem() == 1503)
     if (Player.getCarriedItemData() == 5000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 6);
     Entity.getCarriedItem(a,1503),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
- if (Player.getCarriedItem() == 1510
+ if (Player.getCarriedItem() == 1510)
     if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 16);
     Entity.getCarriedItem(a,1510),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-  if (Player.getCarriedItem() == 1511
+  if (Player.getCarriedItem() == 1511)
     if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 18);
     Entity.getCarriedItem(a,1511),
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-  if (Player.getCarriedItem() == 1512
+  if (Player.getCarriedItem() == 1512)
     if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 14;
     Entity.getCarriedItem(a,1512),
