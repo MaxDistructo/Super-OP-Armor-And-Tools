@@ -151,8 +151,7 @@ function attackHook(a,v){
     Player.getCarriedItemCount(),
     Player.getCarriedItemData()+1
     
-             if (Player.getCarriedItem() == 1512
-  var damage = 14
+  if (Player.getCarriedItem() == 1512
     if (Player.getCarriedItemData() == 10000)
     Entity.setHealth(victim,Entity.getHealth (victim) - 14;
     Entity.getCarriedItem(a,1512),
