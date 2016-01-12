@@ -36,24 +36,6 @@ setArmor(1514,"helmet",1,"Ender Dragon Helmet:WIP","armor/chain-1.png",15,ArmorT
 setArmor(1515,"chestplate",1,"Ender Dragon Chestplate:WIP","armor/chain-1.png",24,ArmorType.chestplate);
 setArmor(1516,"leggings",1,"Ender Dragon Leggings:WIP","armor/chain-2.png",21,ArmorType.leggings);
 setArmor(1517,"boots",1,"Ender Dragon Boots:WIP","armor/chain-1.png",12,ArmorType.boots);
-setDamage(1500,5000);
-setDamage(1501,5000);
-setDamage(1502,5000);
-setDamage(1503,5000);
-setDamage(1504,5000);
-setDamage(1505,10000);
-setDamage(1506,10000);
-setDamage(1507,10000);
-setDamage(1508,10000);
-setDamage(1509,10000);
-setDamage(1510,10000);
-setDamage(1511,10000);
-setDamage(1512,10000);
-setDamage(1513,10000);
-setDamage(1514,100000);
-setDamage(1515,100000);
-setDamage(1516,100000);
-setDamage(1517,100000);
 setCraft(399,1,0,[" a ","aba"," a "],["a",155,0,"b",264,0]);
 setCraft(462,1,0,["aaa","aaa","aaa"],["a",399,0])
 setCraft(460,1,0,["aaa","aba","aaa"],["a",57,0,"b",264,0]);
