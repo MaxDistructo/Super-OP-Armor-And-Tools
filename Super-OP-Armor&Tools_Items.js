@@ -5,7 +5,6 @@ var setItem =  ModPE.setItem
 var setCraft =  Item.addShapedRecipe
 var setBlock = Block.defineBlock
 var setArmor = Entity.setArmor
-var setDmg = Item.setMaxDamage
 var setExplosion = Block.setExplosionResistance
 var setDamage = Item.setMaxDamage
 
