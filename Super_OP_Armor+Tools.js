@@ -78,7 +78,7 @@ function attackHook(a,v){
 }
 
 function useItem(x,y,z,itemId,blockId,side){
-if(itemId==1504&&blockId==3&&side==top)
+if(itemId==1504&&blockId==3&&side==BlockFace.UP)
 {
     Entity.getCarriedItem(Player.getEntity(),1504),
     Player.getCarriedItemCount(),
